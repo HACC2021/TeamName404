@@ -15,7 +15,7 @@ class Landing extends React.Component {
         <div class="skw-page__half skw-page__half--right">
           <div class="skw-page__skewed">
             <div class="skw-page__content">
-              <h2 class="skw-page__heading firstTitle">Office of Hawaiian Affairs</h2>
+              <h2 class="skw-page__heading firstTitle alignRight">Office of Hawaiian Affairs</h2>
               <p class="skw-page__description">OHA is a semi-autonomous state agency responsible for improving the wellbeing of all Native Hawaiians, regardless of blood quantum</p>
               <p class="skw-page__description">This is achieved through advocacy, research, community engagement, land management and the funding of community programs.</p>
 
@@ -27,8 +27,13 @@ class Landing extends React.Component {
         <div class="skw-page__half skw-page__half--left">
           <div class="skw-page__skewed">
             <div class="skw-page__content">
-              <h2 class="skw-page__heading">Page 2</h2>
-              <p class="skw-page__description">Nothing to do here, continue scrolling.</p>
+              <h2 class="skw-page__heading firstTitle">Put your skills to work for the lāhui</h2>
+              <h2 class="skw-page__description ">The Office of Hawaiian Affairs is undergoing a reorganization that prioritizes our beneficiaries, their needs, and the communities we serve.</h2>
+
+              <h2 class="skw-page__description ">OHA is currently recruiting executive leaders, managers and other professional staff to serve the lāhui</h2>
+
+              <a href="https://www.oha.org/jobs" class="skw-page__description" style={{alignItems: "left"}}> <button class="ui inverted yellow basic button">Apply for a job with OHA</button></a>
+              
             </div>
           </div>
         </div>
