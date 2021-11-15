@@ -14,8 +14,12 @@
     position: relative;
     height: 100vh;
   }
+
+  .firstTitle {
+      font-size: 40px !important;
+  }
   
-  $skewDeg: 18deg;
+  $skewDeg: 25deg;
   $magicVH: 32.4vh; // this number is magic and depends on skew angle
   $scrollTime: 1s;
   
@@ -28,7 +32,7 @@
     &__half {
       position: absolute;
       top: 0;
-      width: 50%;
+      width: 49%;
       height: 100vh;
       transition: transform $scrollTime;
   
@@ -98,10 +102,10 @@
     }
   
     &__heading {
-      margin-bottom: 15px;
+      margin-bottom: 25px;
       text-transform: uppercase;
-      font-size: 25px;
-      text-align: center;
+      font-size: 30px;
+      text-align: right;
     }
   
     &__description {
@@ -115,7 +119,7 @@
   
     &-1 {
       .skw-page__half--left .skw-page__content {
-        background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/mousover-img-1.jpg');
+        background-image: url('https://cdn.pixabay.com/photo/2016/11/29/06/38/hawaii-1867850_1280.jpg');
       }
       .skw-page__half--right .skw-page__content {
         background: lighten(#1C1C1C, 5%);

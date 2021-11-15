@@ -15,8 +15,10 @@ class Landing extends React.Component {
         <div class="skw-page__half skw-page__half--right">
           <div class="skw-page__skewed">
             <div class="skw-page__content">
-              <h2 class="skw-page__heading">Skewed One Page Scroll</h2>
-              <p class="skw-page__description">Just scroll down</p>
+              <h2 class="skw-page__heading firstTitle">Office of Hawaiian Affairs</h2>
+              <p class="skw-page__description">OHA is a semi-autonomous state agency responsible for improving the wellbeing of all Native Hawaiians, regardless of blood quantum</p>
+              <p class="skw-page__description">This is achieved through advocacy, research, community engagement, land management and the funding of community programs.</p>
+
             </div>
           </div>
         </div>
