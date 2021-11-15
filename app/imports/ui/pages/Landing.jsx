@@ -162,26 +162,6 @@ class Landing extends React.Component {
 
 
       </div>
-      <div class="skw-page skw-page-5">
-
-        <div class="skw-page__half skw-page__half--left">
-          <div class="skw-page__skewed">
-            <div class="skw-page__content"></div>
-          </div>
-        </div>
-        <div class="skw-page__half skw-page__half--right">
-          <div class="skw-page__skewed">
-            <div class="skw-page__content">
-              <h2 class="skw-page__heading">Epic finale</h2>
-              <p class="skw-page__description">
-                Feel free to check 
-                <a class="skw-page__link" href="https://codepen.io/suez/pens/public/" target="_blank">my other pens</a> and follow me on 
-                <a class="skw-page__link" href="https://twitter.com/NikolayTalanov" target="_blank">Twitter</a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
     
     )
