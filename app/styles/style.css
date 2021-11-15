@@ -17,7 +17,7 @@ body {
 }
 
 .firstTitle {
-  font-size: 40px !important;
+  font-size: 37px !important;
 }
 
 .alignRight {
@@ -138,6 +138,7 @@ body {
   text-transform: uppercase;
   font-size: 30px;
   text-align: left;
+  border-bottom: 3px solid #bbb;
 }
 
 .skw-page__description {
@@ -166,7 +167,7 @@ body {
 }
 
 .skw-page-3 .skw-page__half--left .skw-page__content {
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/mousover-img-2.jpg");
+  background-image: url("https://cdn.pixabay.com/photo/2014/05/13/08/53/sunset-343237_1280.jpg");
 }
 
 .skw-page-3 .skw-page__half--right .skw-page__content {
@@ -177,15 +178,30 @@ body {
   background: #292929;
 }
 
-.skw-page-4 .skw-page__half--right .skw-page__content {
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/sections-3.jpg");
-}
-
 .skw-page-5 .skw-page__half--left .skw-page__content {
   background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/img-test.jpg");
 }
 
 .skw-page-5 .skw-page__half--right .skw-page__content {
   background: #292929;
+}
+
+.ui.card,
+.ui.cards > .card {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ui.card a,
+.ui.cards > .card a {
+  color: black !important;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.ui.cards > .card > .content, .ui.card > .content {
+  padding: 3px !important;
 }
 /*# sourceMappingURL=style.css.map */
