@@ -10,3 +10,96 @@
 #menu{
   background: #EEEFF1;
 } */
+
+
+/**********************************************
+Font
+**********************************************/
+body, p, h1, b{
+  font-family: 'Raleway', sans-serif;
+}
+p, b {
+  font-size: 14pt !important;
+  font-weight: 700;
+}
+hr {
+  padding-top: 0px !important;
+}
+/**********************************************
+Nav
+**********************************************/
+.img-custom {
+  height: 10vh !important;
+}
+.nav-item {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 14pt !important;
+  padding-left: 20px !important;
+  text-transform: uppercase;
+}
+/**********************************************
+Carousel Images
+**********************************************/
+.bg-custom {
+  background-color: #02457a;
+}
+/**********************************************
+Carousel Images
+**********************************************/
+.item1 {
+  background-position: center center;
+  background-image: url("/images/landing1.jpg");
+  background-size: cover;
+} 
+.item2 {
+  background-position: bottom center;
+  background-image: url("/images/landing2.jpg");
+  background-size: cover;
+} 
+.item3 {
+  background-position: bottom center;
+  background-image: url("/images/landing3.jpg");
+  background-size: cover;
+}
+/*@media only screen and (min-width: 600px) {
+.first-image {
+  margin-top: -10%;
+  width: auto !important;
+  height: 100% !important;
+}
+}
+@media only screen and (max-width: 600px) {
+.first-image {
+  width: auto !important;
+  height: 100% !important;
+}
+}*/
+.rectstyle {
+  background-color: transparent !important;
+  background-image: url("/images/landing1.jpg");
+}
+
+.carousel-caption {
+  text-align: left !important;
+}
+
+/**********************************************
+Card Images
+**********************************************/
+.sl-custom1 {
+  background-image: url('/images/spotlight1.jpg');
+  background-size: 100% auto;
+}
+.sl-custom2 {
+  background-image: url('/images/spotlight2.jpg');
+  background-size: cover;
+}
+.sl-custom3 {
+  background-image: url('/images/spotlight3.jpg');
+  background-size: 100% auto;
+}
+
+.icon-custom {
+  width: 120px !important;
+}
