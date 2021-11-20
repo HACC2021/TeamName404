@@ -17,19 +17,19 @@ class Landing extends React.Component {
             <div class="collapse navbar-collapse ms-auto pe-3" id="navbarText">
               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item text-white">
-                  <a class="nav-link active" aria-current="page" href="#">About</a>
+                  <a class="nav-link active" aria-current="page" href="https://www.oha.org/about/">About</a>
                 </li>
                 <li class="nav-item text-white">
-                  <a class="nav-link" href="#">Our Foundations</a>
+                  <a class="nav-link" href="https://www.oha.org/our-foundations/">Our Foundations</a>
                 </li>
                 <li class="nav-item text-white">
-                  <a class="nav-link" href="#">Our Directions</a>
+                  <a class="nav-link" href="https://www.oha.org/education/">Our Directions</a>
                 </li>
                 <li class="nav-item text-white">
-                  <a class="nav-link" href="#">Our Roles</a>
+                  <a class="nav-link" href="https://www.oha.org/our-roles">Our Roles</a>
                 </li>
                 <li class="nav-item text-white">
-                  <a class="nav-link" href="#">Resources</a>
+                  <a class="nav-link" href="https://www.oha.org/resources/">Resources</a>
                 </li>
               </ul>
             </div>
@@ -182,19 +182,19 @@ class Landing extends React.Component {
         <div class="container-fluid bg-dark">
           <footer class="row py-5 my-5 border-top">
             <div class="row justify-content-center">
-              <div class="col-3">
+              <div class="col-lg-3 col-12">
                 <img src="/images/logo.png"></img>
               </div>
-              <div class="col-5">
+              <div class="col-lg-5 col-12">
                 <div class="row">
-                  <div class="col-6 text-white">
+                  <div class="col-lg-6 col-12text-white">
                     <b>Site Information</b><br /><hr/>
                     Public Notices<br />
                     Media Kit<br />
                     Terms of Use Policy<br />
                     Privacy Policy<br />
                   </div>
-                  <div class="col-6 text-white">
+                  <div class="col-lg-6 col-12 text-white">
                     <b>Contact Us</b><br /><hr/>
                     Email Us<br />
                     Office Locations<br />
