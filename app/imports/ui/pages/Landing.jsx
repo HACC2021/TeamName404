@@ -182,12 +182,12 @@ class Landing extends React.Component {
         <div class="container-fluid bg-dark">
           <footer class="row py-5 my-5 border-top">
             <div class="row justify-content-center">
-              <div class="col-lg-3 col-12">
+              <div class="col-lg-3 col-8 pb-5 text-center">
                 <img src="/images/logo.png"></img>
               </div>
-              <div class="col-lg-5 col-12">
+              <div class="col-lg-5 col-8">
                 <div class="row">
-                  <div class="col-lg-6 col-12text-white">
+                  <div class="col-lg-6 col-12 text-white pb-5">
                     <b>Site Information</b><br /><hr/>
                     Public Notices<br />
                     Media Kit<br />
